@@ -1,4 +1,5 @@
 /*
+GUARA
 SPDX-License-Identifier: CC-BY-4.0
 (c) Desenvolvido por Jeff Prestes
 This work is licensed under a Creative Commons Attribution 4.0 International License.
@@ -166,8 +167,8 @@ contract USDC is IERC20Metadata, Owned {
     }    
 
     constructor() {
-        myName = "BRL Aluno05";
-        mySymbol = "BRL@Aluno05";
+        myName = "BRL Aluno09";
+        mySymbol = "BRL@Aluno09";
         myDecimals = 2;
         mint(msg.sender, (1000000000 * (10 ** myDecimals)));
     }
