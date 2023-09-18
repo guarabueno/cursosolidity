@@ -10,6 +10,9 @@ pragma solidity 0.8.19;
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
  */
+
+//Contrato 0x0695C778aa5eAA29e789fD6Df596c76084C700ba
+
 interface IERC20 {
 
     /**
@@ -163,8 +166,8 @@ contract USDC is IERC20Metadata, Owned {
     }    
 
     constructor() {
-        myName = "BRL Aluno ";
-        mySymbol = "BRL@";
+        myName = "BRL Aluno05";
+        mySymbol = "BRL@Aluno05";
         myDecimals = 2;
         mint(msg.sender, (1000000000 * (10 ** myDecimals)));
     }
